@@ -1,0 +1,48 @@
+
+body {
+    background-image: url(../assets/gif/space.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+#head {
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 40px;
+}
+
+.input_field {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    height: 40px;
+    margin-bottom: 2rem;
+}
+
+#kgInput {
+    width: 300px;
+}
+
+#dropdown {
+    width: 200px;
+    text-align: center;
+}
+
+#calBtn {
+    width: 150px;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 150px;
+    gap: 40px;
+    padding: 10px;
+    height: auto;    
+}
